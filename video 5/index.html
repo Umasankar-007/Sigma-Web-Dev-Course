@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">   <!--rel stands for relation and href for hypertext reference-->
+</head>
+
+<body>
+    <img height="230" src="Image.png" alt="Train image">
+    <!--src attribute contains image path and alt attribute contains 'Train image' text if path image not supports or invalid image path then 'alt' text shown besides error image.Height,width not use px(pixel) as in css if one of those define another automatically adjust  -->
+    <br>
+    <table>
+        <caption>Employee Details</caption>
+
+        <thead>
+            <!--header content-->
+            <tr>
+                <th>Name</th> <!--th denotes table heading ,tr denotes table row ,td denotes table data-->
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--body content-->
+            <tr>
+                <td>Harry</td>
+                <td>Programmer</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sam</td>
+                <td rowspan="2">Java</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sam</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--footer content-->
+            <td colspan="2">Sam</td>
+            <td rowspan="2">Java</td>
+        </tfoot>
+    </table>
+
+    <ul type="square">        <!--unordered list   type=disc(by default),square,circle-->
+        <caption>Unordered List</caption>
+        <li>Harry</li>
+        <li>Shubham</li>
+        <li>Ali</li>
+    </ul>
+
+    <ol type="A">        <!--ordered list   type check in CodeWithHrry.com html web-->
+        <caption>Ordered List</caption>       <!-- https://www.codewithharry.com/tutorial/html-ordered-list/  -->
+        <li>Harry</li>
+        <li>Shubham</li>
+        <li>Ali</li>
+    </ol>
+
+
+    <h1>HTML Definition List</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language: The standard language for creating web pages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written in HTML.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language commonly used in web development to add interactive features.</dd>
+    </dl>
+
+</body>
+
+</html>

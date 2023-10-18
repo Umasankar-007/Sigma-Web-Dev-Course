@@ -1,0 +1,8 @@
+video,audio & media tag in HTML
+
+Marvel.jpg -> for video tag -> poster attribute
+
+Inline svg -> svg tag in idex.html
+img.svg -> to embed svg in HTML using <img> tag   -> [visit img.svg file]
+
+iFrames -> use to embed another website(any) in HTML/webpage

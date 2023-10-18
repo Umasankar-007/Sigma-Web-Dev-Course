@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        div {
+            /*background-color: red;*/
+        }
+
+        /*class selector*/
+        .red {
+            background-color: rosybrown;
+        }
+
+        /*id selector*/
+        #green {
+            background-color: rgb(99, 170, 99);
+        }
+
+        /*child selector - trigger direct child under div here*/
+        div>p {
+            color: rgb(62, 255, 191);
+            background-color: brown;
+        }
+
+        /*Descendent selector - trigger anywhere the child exists under div here*/
+        div p{
+            color: rgb(62, 255, 191);
+            background-color: brown;
+        }
+        
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*pseudo selector*/
+        a:visited{
+            color: rgb(8, 92, 27);
+        }
+
+        a:link{
+            color: rgb(221, 218, 24);
+        }
+
+        a:active{
+            background-color: rgb(68, 28, 28);
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+
+        main::first-line{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+
+    <div class="red">
+        I am div
+        <p>I am para inside div</p>       <!--access via child selector-->
+    </div>
+
+    <div class="red">                     <!--second div-->
+        I am div
+        <article>
+            <p>I am para inside div</p>   <!--access via descendent selector-->
+        </article>
+    </div>
+
+    <div id="green">
+        I am another div
+    </div>
+
+    <div>
+        <a href="https://www.google.com">Go to Google</a>
+        <a href="https://www.geeksforgeeks.com">Go to GeeksForGeeks</a>
+    </div>
+</body>
+
+</html>

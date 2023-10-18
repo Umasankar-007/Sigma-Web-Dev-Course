@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+<body>
+    <h1>Form to apply for Sigma Web Developement course TA</h1>
+    <div>
+        <a target="_blank" href="https://www.codewithharry.com/tutorial/html-input-types/">CodeWithHarry input types</a>   <!--target="_blank"  use for open link in new tab(browser)-->
+    </div>
+    <form action="post"></form>
+    <div>
+        <label for="username">Enter your username :</label>   <!--label denotes unique identifier for input tag using for(id) attribute-->
+        <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>  <!--placeholder for background blur text-->
+    </div>  
+    <div>
+        <label for="passID">Enter your password : </label>
+        <input type="password" name="password" id="passID" placeholder="Enter password">  <!--password type hides the characters entered by the user for security reasons.-->
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="suscribe" name="suscribe" value="yes">
+        <label for="suscribe">Suscribe to newsletter</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea id="comment" name="comment" cols="50" rows="4" placeholder="Enter comment"></textarea>
+    </div>
+    <div>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+    </div>
+</body>
+</html>

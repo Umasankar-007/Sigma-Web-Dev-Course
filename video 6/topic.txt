@@ -1,0 +1,2 @@
+SEO and Core Web Vitals in HTML
+Lighthouse check in chrome

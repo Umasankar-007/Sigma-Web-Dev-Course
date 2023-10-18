@@ -1,0 +1,100 @@
+<!--practice purpose-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>College Student Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Education</th>
+            <th>Grad. year</th>
+        </tr>
+        <tr>
+            <td>Umasankar</td>
+            <td>CS Grad</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>Hiresn</td>
+            <td>B Com</td>
+            <td>2024</td>
+        </tr>
+    </table>
+
+    <table>
+        <h1>Rowspan use</h1>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone No</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ritesh</td>
+                <td>578647498</td>
+                <td rowspan="2">Durgapur</td>
+            </tr>
+            <tr>
+                <td>846768946</td>
+            </tr>
+            <tr>
+                <td>Urmila</td>
+                <td>853424857</td>
+                <td>Patna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--not written-->
+        </tfoot>
+    </table>
+    
+    <table>
+        <h1>Colspan use</h1>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Akash</td>
+            <td>Ashish</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>kash</td>
+            <td>shreyash</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <ul type="square">
+        <h2>Unordered List</h2>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <ol type="">
+        <h2>Ordered List</h2>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    
+    <dl>
+        <h2>Definition List</h2>
+        <dt>HTML :</dt>
+        <dd>Full form - Hyper Text Markup Language</dd>
+    </dl>
+</body>
+</html>

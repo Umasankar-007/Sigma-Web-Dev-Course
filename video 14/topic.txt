@@ -1,0 +1,4 @@
+Introduction of CSS (Cascading Style Sheets)
+selectors and declarations
+index.html
+table.html - practice purpose

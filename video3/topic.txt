@@ -1,2 +1,0 @@
-Basic structure of html website
-How to run web in mobile using same network connected device
